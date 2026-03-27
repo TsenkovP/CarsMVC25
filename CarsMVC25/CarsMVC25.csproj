@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-CarsMVC25-b0751d06-9608-425b-883c-79a4ecaf9cea</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.14" />
+  </ItemGroup>
+
+</Project>
